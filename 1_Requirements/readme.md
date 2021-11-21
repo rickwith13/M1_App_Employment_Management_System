@@ -31,6 +31,10 @@
   
   - Every user must be comfortable using computer.
   - All operations are in english so user must have basic knowledge of English.
+
+
+##SWOT Analysis
+- https://github.com/rickwith13/M1_App_Employment_Management_System/blob/main/2_Architecture/swot.jpeg
  
  ## Aging 
 | Age | Feature |
