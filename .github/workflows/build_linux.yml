@@ -16,4 +16,4 @@ jobs:
     - name: setup
       run: sudo apt-get install make
     - name: make
-      run: make -C M1_App_Employment_Management_System/3_IMPLIEMENTATION
+      run: make -C M1_App_Employment_Management_System/3_Implementation
