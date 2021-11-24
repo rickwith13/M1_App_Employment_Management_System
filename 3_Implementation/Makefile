@@ -3,7 +3,7 @@ TEST_PROJECT_NAME = Test_$(PROJECT_NAME)
 BUILD_DIR = Build
 SRC = src/SearchList.c src/newadd.c src/newatt.c src/Update.c src/display.c src/calculator.c
  
-INC_T = -IUnity -Itest 
+INC_T = -Iunity -Itest 
 INC_H = -Iinc
       
 TEST_SRC = test/test_search.c test/main_test_search.c unity/unity.c
