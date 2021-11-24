@@ -1,4 +1,4 @@
-#include "calculatorhead.h"
+//#include "calculatorhead.h"
 
 // Function for Calculating Salary Per Month
 int Sal_Cal(int n_d_a, int s_p_d)
