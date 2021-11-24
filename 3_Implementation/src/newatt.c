@@ -1,5 +1,5 @@
 /**
- * @file newatt.c kavya yukti shriya
+ * @file newatt.c lakshmi rikwith
  * @author your name (you@domain.com)
  * @brief 
  * @version 0.1
