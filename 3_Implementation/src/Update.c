@@ -1,6 +1,6 @@
 /**
  * @file update.c
- * @author Shriya
+ * @author lakshmi rikwith
  * @brief 
  * @version 0.1
  * @date 2021-05-23
