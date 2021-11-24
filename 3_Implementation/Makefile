@@ -1,7 +1,7 @@
 PROJECT_NAME = Employee
 TEST_PROJECT_NAME = Test_$(PROJECT_NAME)
 BUILD_DIR = Build
-SRC = src/SearchList.c src/newadd.c src/newatt.c src/Update.c src/display.c
+SRC = src/SearchList.c src/newadd.c src/newatt.c src/Update.c src/display.c src/calculator.c
  
 INC_T = -IUnity -Itest 
 INC_H = -Iinc
