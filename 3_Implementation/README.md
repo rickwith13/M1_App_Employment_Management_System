@@ -145,21 +145,4 @@ It will show the output
 ```
     gcc -I $(INC_H) $(SRC) main.c -g -o $(BUILD_DIR)/$(PROJ_NAME).$(EXEC)
 	gdb $(BUILD_DIR)/$(PROJ_NAME).$(EXEC)
-```
-
-### For valgrind, use command
-```
-    valgrind ./$(BUILD_DIR)/$(TEST_PROJECT_NAME).$(EXEC)
-```
-
-### For coverage, use command
-```
-    gcc -fprofile-arcs -ftest-coverage $(INC_H) $(INC_T) $(TEST_SRC) $(SRC) -o $(call FixPath,$(TEST_PROJ_NAME).$(EXEC))
-	$(call FixPath, ./$(TEST_PROJ_NAME).$(EXEC))
-	gcov -a $(COV_SRC)
-	$(RM) *.$(EXEC)
-	$(RM) *.gcda
-	$(RM) *.gcno
-	$(RM) *.c.gcov
-	$(RM) test_conversion.c
-```
+```tes
