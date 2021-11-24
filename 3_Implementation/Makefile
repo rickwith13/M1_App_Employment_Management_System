@@ -6,7 +6,7 @@ SRC = src/SearchList.c src/newadd.c src/newatt.c src/Update.c src/display.c src/
 INC_T = -IUnity -Itest 
 INC_H = -Iinc
       
-TEST_SRC = test/test_search.c test/main_test_search.c Unity/unity.c
+TEST_SRC = test/test_search.c test/main_test_search.c unity/unity.c
 
 COV_SRC = main_test_search.c
 
