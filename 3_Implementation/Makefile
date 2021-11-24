@@ -30,9 +30,9 @@ all:$(BUILD_DIR)
 run: 	
 	$(call FixPath,$(BUILD_DIR)/$(PROJECT_NAME).$(EXEC))
 	
-test:
-	gcc $(INC_H) $(INC_T) $(TEST_SRC) $(SRC) -o $(call FixPath,$(BUILD_DIR)/$(TEST_PROJECT_NAME).$(EXEC))
-	./$(call FixPath,$(BUILD_DIR)/$(TEST_PROJECT_NAME).$(EXEC))
+test:$(BUILD)
+	gcc $(TEST_SRC) $(INC) -o $(call FixPath,$(TEST_OUTPUT).$(EXEC))
+	./$(call FixPath,$(TEST_OUTPUT).$(EXEC))
 	
 $(BUILD_DIR):
 	mkdir $(BUILD_DIR)
