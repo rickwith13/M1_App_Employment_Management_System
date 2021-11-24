@@ -45,7 +45,7 @@ void test_checkBU(void)
   TEST_ASSERT_EQUAL(1, checkBU("Embedded"));
   TEST_ASSERT_EQUAL(1, checkBU("Medical"));
   TEST_ASSERT_EQUAL(1, checkBU("Transportation"));
-  TEST_ASSERT_EQUAL(0, checkBU("Embedde  d"));
+  TEST_ASSERT_EQUAL(0, checkBU("Embedded"));
 }
 
 void test_checkRole(void)
@@ -54,7 +54,7 @@ void test_checkRole(void)
   TEST_ASSERT_EQUAL(1, checkRole("Associate Engineer"));
   TEST_ASSERT_EQUAL(1, checkRole("Lead"));
   TEST_ASSERT_EQUAL(1, checkRole("Program Manager"));
-  TEST_ASSERT_EQUAL(0, checkRole("Intern s"));
+  TEST_ASSERT_EQUAL(0, checkRole("Interns"));
 }
 
 void test_newatt(void)
