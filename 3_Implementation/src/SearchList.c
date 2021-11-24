@@ -1,6 +1,6 @@
 /**
  * @file SearchList.c
- * @author yukti yukti.patel@ltts.com
+ * @author lakshmirikwith.siripurapu@ltts.com
  * @brief 
  * @version 0.1
  * @date 2021-05-25
@@ -57,12 +57,9 @@ int checkBU(char *bu){
 }
 
 int checkRole(char *role){
-    char *Role1 = "Intern";
-    char *Role2 = "Associate Engineer";
-    char *Role3 = "Lead";
-    char *Role4 = "Program Manager";
+    char *Role1 = "Associate Engineer";
 
-    if((strcmp(role, Role1) == 0) || (strcmp(role, Role2) == 0) || (strcmp(role, Role3) == 0) || (strcmp(role, Role4) == 0) ){
+    if((strcmp(role, Role1) == 0)){
         return 1;
     }
     return 0;
