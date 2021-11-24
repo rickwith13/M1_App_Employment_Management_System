@@ -1,6 +1,6 @@
 /**
  * file newadd.c
- * author your Meher
+ * author your Vamsi
  * brief 
  * version 0.1
  * date 2021-04-21
